@@ -16,7 +16,7 @@ pipeline
 		{
 			steps
 			{
-				echo " SLEEP ...."
+				echo " SLEEP TIME 3...."
 			}
 		}
 	}
