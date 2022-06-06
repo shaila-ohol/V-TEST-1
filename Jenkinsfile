@@ -4,10 +4,11 @@ pipeline
 	stages
 	{
 		stage ("BUILD")
+	
 		{
 			steps
 			{
-				echo "THIS IS $BRANCH_NAME"
+				echo "THIS IS $BRANCH_NAME BRANCH"
 			}
 		}
 	}
