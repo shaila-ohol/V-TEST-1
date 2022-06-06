@@ -3,7 +3,7 @@ pipeline
 	agent any
 	stages
 	{
-		stage ("$BRANCH_NAME")
+		stage ("BUILD")
 		{
 			echo "THIS IS $BRANCH_NAME"
 
