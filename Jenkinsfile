@@ -11,5 +11,13 @@ pipeline
 				echo "THIS IS $BRANCH_NAME BRANCH"
 			}
 		}
+		
+		stage ("echo")
+		{
+			steps
+			{
+				echo " SLEEP ...."
+			}
+		}
 	}
 }
