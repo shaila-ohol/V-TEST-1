@@ -3,7 +3,7 @@ pipeline
 	agent any
 	stages
 	{
-		stage ("$BRANCH_NAME")
+		stage ("BRANCH_NAME")
 		{
 			steps
 			{
